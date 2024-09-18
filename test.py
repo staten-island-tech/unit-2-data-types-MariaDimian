@@ -6,3 +6,5 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z)
+
+if "my name is david"

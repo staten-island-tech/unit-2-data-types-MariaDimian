@@ -21,3 +21,6 @@ bill = int(input("whats the bill"))
 
 def thing(bill):
     print(int(bill))
+
+if x %2 ==0 and y %2 ==0
+    print("both are even")

@@ -22,5 +22,13 @@ bill = int(input("whats the bill"))
 def thing(bill):
     print(int(bill))
 
-if x %2 ==0 and y %2 ==0
-    print("both are even")
+quality = input("what is the quality":["bad", "okay", "good", "great"])
+    if quality == "bad":
+        print 
+    if quality == "okay"
+        print 
+    if ["good"]
+        print 
+    if ["great"]
+        print 
+

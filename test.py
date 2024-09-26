@@ -17,18 +17,20 @@
 
 # evenodd()
 
-bill = int(input("whats the bill"))
 
-def thing(bill):
-    print(int(bill))
 
-quality = input("what is the quality":["bad", "okay", "good", "great"])
-    if quality == "bad":
-        print 
-    if quality == "okay"
-        print 
-    if ["good"]
-        print 
-    if ["great"]
-        print 
+#def thing ():
+    #bill = int(input("whats the bill?"))
+
+    #quality = input("what is the quality?:['bad', 'okay', 'good', 'great']")
+   # if quality == "bad":
+    #    print(bill) 
+    #elif quality == "okay":
+     #   print(bill * 1.15) 
+    #elif quality == "good":
+  #      print (bill * 1.20)
+   # elif quality == "great":
+ #       print(bill * 1.25)
+
+#thing()
 

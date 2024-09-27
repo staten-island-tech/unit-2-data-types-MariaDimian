@@ -34,3 +34,7 @@
 
 #thing()
 
+def thing ():
+    num = int(input("type in a number"))
+    input % 2 == 1
+      if num % 2 == 0:

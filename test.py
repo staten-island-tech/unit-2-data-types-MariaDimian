@@ -34,7 +34,11 @@
 
 #thing()
 
-def thing ():
-    num = int(input("type in a number"))
-    input % 2 == 1
-      if num % 2 == 0:
+def find_factors():
+      num = int(input("type in a number"))
+      factors = []
+      for i in range(1, num + 1):
+              if num % i == 0:
+                  factors.append(i)
+      print(factors)
+find_factors()

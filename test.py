@@ -78,22 +78,11 @@ def find_factors(num):
     return factors
 
 def gcf(num_one, num_two):
-    
-    factors_one = find_factors(num_one)
-    factors_two = find_factors(num_two)
-    
-    
-    common_factors = list(set(factors_one) & set(factors_two))
-    
-    
-    return max(common_factors)
-
-
-num_one = int(input("Type in the first number: "))
-num_two = int(input("Type in the second number: "))
-
-
-result = gcf(num_one, num_two)
+   # gets smaller of both numbers
+   min = min(num_one, num_two)
+   # loop to smaller number
+   for i in range(min + 1):
+       ## now check if i is factor of BOTH numbers
 print(f"The Greatest Common Factor of {num_one} and {num_two} is: {result}")
 
   

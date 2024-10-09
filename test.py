@@ -83,6 +83,11 @@ def gcf(num_one, num_two):
    # loop to smaller number
    for i in range(min + 1):
        ## now check if i is factor of BOTH numbers
-print(f"The Greatest Common Factor of {num_one} and {num_two} is: {result}")
+
+def gcf(num_1, num_2)
+    for i in range(1, min + 1):
+        if (num_1) % i == 0 / (num_2) % i == 0:
+          factors.append(i)
+          print(f"The Greatest Common Factor of {num_one} and {num_two} is: {gcf}")
 
   

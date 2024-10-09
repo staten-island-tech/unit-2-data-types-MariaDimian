@@ -70,24 +70,20 @@ def gcf(num_1, num_2):
   num_1 % 0 and num_2 ==0 """
   
 
-def find_factors(num):
-    factors = []
-    for i in range(1, num + 1):
-        if num % i == 0:
-            factors.append(i)
-    return factors
+#def find_factors(num):
+  #  factors = []
+ #   for i in range(1, num + 1):
+ #       if num % i == 0:
+ #           factors.append(i)
+#    return factors
 
-def gcf(num_one, num_two):
-   # gets smaller of both numbers
-   min = min(num_one, num_two)
-   # loop to smaller number
-   for i in range(min + 1):
+
+num_one = int(input("give me a number"))
+num_two = int(input("give me another number"))
+gcf = 1
+
+for i in range(1, min(num_one, num_two)):
        ## now check if i is factor of BOTH numbers
-
-def gcf(num_1, num_2)
-    for i in range(1, min + 1):
-        if (num_1) % i == 0 / (num_2) % i == 0:
-          factors.append(i)
-          print(f"The Greatest Common Factor of {num_one} and {num_two} is: {gcf}")
-
-  
+    if num_one % i == 0 and num_two % i == 0:
+        gcf = i
+print(f"The Greatest Common Factor is {gcf}")

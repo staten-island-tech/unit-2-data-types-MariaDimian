@@ -82,7 +82,7 @@ num_one = int(input("give me a number"))
 num_two = int(input("give me another number"))
 gcf = 1
 
-for i in range(1, min(num_one, num_two)):
+for i in range(1, (min(num_one, num_two) +1)):
        ## now check if i is factor of BOTH numbers
     if num_one % i == 0 and num_two % i == 0:
         gcf = i
